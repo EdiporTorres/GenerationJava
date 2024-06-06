@@ -6,15 +6,16 @@ public class DoWhileMedia {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int num, cont, total = 0;
+		int num;
+		float  total = 0 , cont=0;
 		Scanner leia = new Scanner(System.in);
 
 		System.out.println("Digite um numero: ");
 		num = leia.nextInt();
-
-		do {
+		C:\Users\edipo\eclipse-workspace
+		do { cont++;
 			if (num % 3 == 0) {
-				total = num + total;
+				total = (num + total) / cont;
 			}
 			System.out.println("Digite um numero: ");
 			num = leia.nextInt();
