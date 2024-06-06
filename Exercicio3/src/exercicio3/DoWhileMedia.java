@@ -21,7 +21,7 @@ public class DoWhileMedia {
 
 
 		} while (num != 0);
-		System.out.println("A soma dos numeros positivos é: " + total);
+		System.out.println("A media dos numeros multiplos de 3 é: " + total);
 	}
 
 }
