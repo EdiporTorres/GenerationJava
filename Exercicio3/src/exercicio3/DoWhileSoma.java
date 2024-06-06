@@ -9,16 +9,14 @@ public class DoWhileSoma {
 		int num, total=0;
 		Scanner leia = new Scanner(System.in);
 		
-		System.out.println("Digite um numero: ");
-		num = leia.nextInt();
 		
 		do {
-
+			System.out.println("Digite um numero: ");
+			num = leia.nextInt();
 			if (num >= 0) {
 				total = num+total ;
 			}
-			System.out.println("Digite um numero: ");
-			num = leia.nextInt();
+
 			
 		} while (num != 0); 
 		System.out.println("A soma dos numeros positivos é: " + total);
