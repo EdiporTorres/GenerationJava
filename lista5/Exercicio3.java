@@ -1,7 +1,7 @@
 package lista5;
 import java.util.*;
 
-public class Exericio3 {
+public class Exercicio3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
