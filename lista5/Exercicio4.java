@@ -25,10 +25,9 @@ public class Exercicio4 {
 			System.out.println("Digite o número que você deseja encontrar: ");
 			int valor = leia.nextInt();
 			if (num.contains(valor)) {
-			
-				System.out.println("O número " + valor + " foi encontrado" );
+				System.out.println("O número " + valor + " foi encontrado");
 			} else {
-				System.out.println("O número"+valor+" não foi encontrado!");
+				System.out.println("O número" + valor + " não foi encontrado!");
 				break;
 
 			}
