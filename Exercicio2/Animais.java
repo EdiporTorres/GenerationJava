@@ -18,7 +18,7 @@ public class Animais {
         if (caract1.equalsIgnoreCase("Vertebrado")) {
             if (caract2.equalsIgnoreCase("Ave")) {
                 if (caract3.equalsIgnoreCase("Carnivoro")) {
-                    System.out.println("O animal é Águia");
+                    System.out.println("O animal é �guia");
                 } else if (caract3.equalsIgnoreCase("Onivoro")) {
                     System.out.println("O animal é Pombo");
                 } else {
@@ -45,9 +45,9 @@ public class Animais {
                 if (caract3.equalsIgnoreCase("Hematofago")) {
                     System.out.println("O animal é Sanguessuga");
                 } else if (caract3.equalsIgnoreCase("Onivoro")) {
-                    System.out.println("O animal é Minhoca");
+                    System.out.println("O animal é Minhoca.");
                 }else {
-                	System.out.println("Animal desconhecido");
+                	System.out.println("Animal desconhecido.");
             }
         }
 
